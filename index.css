@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.calendar-content {
+  width: 450px;
+  margin: 30px auto;
+  border: 1px solid #f2f2f2;
+  padding: 20px;
+}
+
+header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .icon-icon_arrow_top {
+  margin-right: 35px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendar-week {
+  margin: 20px 0;
+}
+
+.calendar-day {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
